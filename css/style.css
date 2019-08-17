@@ -119,6 +119,7 @@ h2 {
   text-transform: uppercase; 
 }
 
+/* HERO SECTION */
 #hero {
   background-image: linear-gradient(rgba(218, 51, 46, .6), rgba(218, 51, 46, .6)), url('../img/hero-bg.png');
   background-size: cover;
@@ -200,7 +201,54 @@ h2 {
   padding-right: 20px;
 }
 
+/* FEATURES SECTION */
+#features {
+  background-color: #fff;
+}
 
+#features .container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#features h2 {
+  color: #8a8a8a;
+  margin-bottom: 40px;
+}
+
+.p-features {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 22px;
+  line-height: 28px;
+  padding: 0 130px;
+  color: #3a3a3a;
+}
+
+.row {
+  overflow: hidden; /* fix hight because of float elements */
+  margin-top: 50px;
+}
+
+.row h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 30px 0;
+}
+
+.col-4 {
+  float: left;
+  width: 33.3333%;
+  padding: 0 45px;
+}
+
+.col-4 p {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 18px;
+  line-height: 24px;
+  color: #646464;
+}
 
 
 
