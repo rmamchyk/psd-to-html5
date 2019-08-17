@@ -89,6 +89,10 @@ ol li {
 .block {
   display: block;
 }
+
+.inline {
+  display: inline-block;
+}
 /* HELPER CLASSES END */
 
 /* GENERAL RULES */
@@ -327,7 +331,7 @@ footer p {
 }
 
 .row {
-  margin-top: 70px;
+  margin-top: 60px;
   margin-left: -60px;
 }
 
@@ -363,27 +367,32 @@ footer p {
   font-size: 11px;
 }
 
+/* COPYRIGHT SECTION */
+.copyright {
+  background-color: #d7dedc;
+}
 
+.copyright .container {
+  padding: 30px 40px;
+  text-align: center;
+}
 
+.copyright .inline {
+  font-size: 20px;
+  vertical-align: middle;
+}
 
+.cr,
+.me {
+  margin-right: 30px;
+}
 
+.me,
+.images {
+  margin-left: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fb,
+.tw {
+  margin-right: 35px;
+}
