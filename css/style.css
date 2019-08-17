@@ -93,21 +93,112 @@ ol li {
   src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype');
 }
 
-.container {
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+
+#hero {
+  background-image: linear-gradient(rgba(218, 51, 46, .6), rgba(218, 51, 46, .6)), url('../img/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 30px;
+  padding-bottom: 3px;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom .1s, color .1s;
+}
+
+.nav li a:hover {
+  border-bottom: 4px solid #fff;
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.cta {
+  position: relative;
+  display: inline-block;
+  margin-top: 90px;
+}
+
+.imgs {
+  float: right;
+  position: absolute;
+  right: -135px;
+}
+
+.iphone {
+  position: relative;
+  width: 85%;
+  margin-bottom: -240px;
+}
+
+.cta-info {
+  width: 60%;
+  padding-right: 150px;
+  float: left;
+}
+
+.hero-paragraph {
+  font-size: 36px;
+  line-height: 40px;
   font-family: 'HelveticaNeue-Thin';
+  color: #fff;
+  margin-bottom: 55px;
 }
 
-h1 {
-  font-size: 25px;
+.cta-button {
+  background-color: #282828;
+  padding: 23px 35px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+  transition: all .3s;
 }
 
+.cta-button:hover {
+  background-color: #383737;
+}
+
+.phone-icon {
+  vertical-align: middle;
+  padding-right: 20px;
+}
 
 
 
