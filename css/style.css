@@ -85,6 +85,10 @@ ol li {
   font-size: 17px;
   line-height: 23px;
 }
+
+.block {
+  display: block;
+}
 /* HELPER CLASSES END */
 
 /* GENERAL RULES */
@@ -237,13 +241,13 @@ h2 {
   margin: 30px 0;
 }
 
-.col-4 {
+.col-4-app {
   float: left;
   width: 33.3333%;
   padding: 0 45px;
 }
 
-.col-4 p {
+.col-4-app p {
   font-family: 'HelveticaNeue-Thin';
   font-size: 18px;
   line-height: 24px;
@@ -258,7 +262,7 @@ h2 {
 }
 
 #nose .container {
-  padding: 0;
+  padding: 0 20px;
 }
 
 #nose h2 {
@@ -302,8 +306,62 @@ h2 {
   color: #f55150;
 }
 
+/* FOOTER SECTION */
+footer {
+  background-color: #2e2e38;
+}
 
+footer .container {
+  padding: 120px 20px;
+}
 
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+footer p {
+  font-size: 15px;
+  font-family: 'HelveticaNeue-Thin';
+  font-style: italic;
+}
+
+.row {
+  margin-top: 70px;
+  margin-left: -60px;
+}
+
+.col-4-footer {
+  float: left;
+  width: 33.3333%;
+  color: #fff;
+  padding: 0 60px;
+}
+
+.posts li,
+.tweets li {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  font-family: 'HelveticaNeue-Thin';
+}
+
+.posts li {
+  padding-left: 70px;
+}
+
+.tweets li {
+  margin-bottom: 25px;
+}
+
+.reddish-bg {
+  background-image: url('../img/rectangle.png');
+  background-repeat: no-repeat;
+}
+
+.small-text {
+  font-size: 11px;
+}
 
 
 
