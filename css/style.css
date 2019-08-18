@@ -135,6 +135,10 @@ h2 {
   background-attachment: fixed;
 }
 
+#hero .container {
+  padding-bottom: 60px;
+}
+
 .nav li {
   display: inline-block;
 }
@@ -395,4 +399,34 @@ footer p {
 .fb,
 .tw {
   margin-right: 35px;
+}
+
+/* ANIMATIONS */
+.iphone-on {
+  position: absolute;
+  right: 175px;
+  top: 112px;
+  width: 54%;
+}
+
+.iphone-btn {
+  position: absolute;
+  right: 215px;
+}
+
+.js-wp-2 {
+  opacity: 0;
+}
+
+.js-wp-2.animated {
+  opacity: 1;
+}
+
+.js-wp-3 {
+  opacity: 0;
+  animation-delay: 2.3s;
+}
+
+.js-wp-3.animated {
+  opacity: 1;
 }
