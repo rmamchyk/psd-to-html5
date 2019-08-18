@@ -16,4 +16,8 @@ $(document).ready(function () {
     offset: '70%'
   });
 
+  $('.burger-nav').on('click', function () {
+    $('.container nav ul').toggleClass('open');
+  });
+
 });
